@@ -6,7 +6,7 @@
 [![Repo Status: Active][status-badge]][status-link]
 
 <p align="center">
-  <img src="https://i.imgur.com/gYdQB4k.gif" alt="Face Recognition Demo" width="700"/>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGl5ZGdzdTgyZ2pmN2hsd3p3cGNjZm9oaWs0d2ZjNW9zMHdzb29nZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bo5IxKUyIoSVrDEPPv/giphy.gif" alt="Face Recognition Demo" width="700"/>
 </p>
 
 A comprehensive desktop application built in Python that uses the **OpenCV** library and the **LBPH (Local Binary Patterns Histograms )** algorithm to create a real-time face recognition system. The application allows users to register new faces, train the model on all registered individuals, and then recognize them through a live webcam feed.
@@ -73,9 +73,12 @@ pip install -r requirements.txt
 
 After activating the environment and installing the dependencies, run the main script:
 ```bash
-python run.py
+python code.py
 ```
-
+or 
+```bash
+python list.py
+```
 ---
 
 ## 📖 Usage Guide
@@ -113,7 +116,8 @@ face-recognition-opencv/
 │
 ├── labels.json         # Stores user names and their corresponding numeric labels
 ├── model.yml           # The trained recognizer model, created automatically
-├── run.py              # The main application script
+├── code.py              # The main application script using oop
+├── list.py              # The application script using functions
 └── README.md           # This file
 ```
 
