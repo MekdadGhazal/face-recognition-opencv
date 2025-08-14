@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+model.yml
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# pictures 
+data/faces/*
+data/raw/*
+
+# log file
+logs/
+
+# label file
+labels.json
+
+# python files
+run.py
+main.py
